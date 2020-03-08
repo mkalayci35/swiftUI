@@ -7,4 +7,5 @@
 ## Alert
 
 <img src="https://github.com/mkalayci35/swiftUI/blob/master/assets/SPAlert.png" height="450">
+
 [SPAlert](https://github.com/ivanvorobei/SPAlert)
