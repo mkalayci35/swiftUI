@@ -1,6 +1,7 @@
 ## Navigate
 
 - [Alert](#alert)
+- [Notes](#notes)
 
 ## Alert
 
@@ -8,6 +9,8 @@
 
 [SPAlert](https://github.com/ivanvorobei/SPAlert)
 
+
+## Notes
 ## 09.03.20
 Geometry Getter
 ``` 
