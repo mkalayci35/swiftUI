@@ -8,7 +8,7 @@
 
 [SPAlert](https://github.com/ivanvorobei/SPAlert)
 
-#09.03.20
+## 09.03.20
 Geometry Getter
 ``` 
 struct GeometryGetter: View {
