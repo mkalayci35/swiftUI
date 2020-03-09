@@ -37,3 +37,12 @@ struct RectanglePreferenceKey: PreferenceKey {
 }
 
 ```
+Using  Geometry Getter
+```
+@State private var detail: CGRect = .zero
+
+VStack {
+    Text("Good Morning Istanbul")
+}
+.background(GeometryGetter(rect: self.$detail))
+```
