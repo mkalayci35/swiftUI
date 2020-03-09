@@ -48,3 +48,11 @@ VStack {
 }
 .background(GeometryGetter(rect: self.$detail))
 ```
+### How to resolve: 'keyWindow' was deprecated in iOS 13.0
+
+``` 
+var screenStatusBarHeight: CGFloat {
+    let window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
+    return (window?.windowScene?.statusBarManager?.statusBarFrame.height)!
+}
+```
