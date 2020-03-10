@@ -56,3 +56,19 @@ var screenStatusBarHeight: CGFloat {
     return (window?.windowScene?.statusBarManager?.statusBarFrame.height)!
 }
 ```
+## 10.03.20
+Turn screen off when swiping right
+``` 
+.gesture(
+                DragGesture()
+                    .onChanged { item in
+                        if item.startLocation.x - item.location.x < -50 {
+                            self.presentationMode.wrappedValue.dismiss()
+                        }
+                }
+        )
+```
+Used dismiss
+```
+@Environment(\.presentationMode) var presentationMode
+```
